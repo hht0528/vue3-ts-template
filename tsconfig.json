@@ -59,7 +59,8 @@
     "build/**/*.d.ts",
     "mock/**/*.ts",
     "test/*.test.ts",
-    "vite.config.ts"
+    "vite.config.ts",
+    "src/mock/index.ts"
   ],
   // 指定不需要编译的文件
   "exclude": ["node_modules", "dist", "**/*.js"]

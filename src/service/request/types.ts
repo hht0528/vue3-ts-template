@@ -4,7 +4,7 @@ export interface RequestInterceptors<T> {
   requestInterceptors?: (config: InternalAxiosRequestConfig) => InternalAxiosRequestConfig
   requestInterceptorsCatch?: (err: any) => any
   // 响应拦截
-  responseInterceptors?: (res: T) => T
+  responseInterceptors?: (config: T) => T
   responseInterceptorsCatch?: (err: any) => any
 }
 // 自定义传入的参数
